@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music School Management System</title>
+
+  <!-- Styles for the website -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Center text */
+      background-color: #FCCDFF; /* Pink background for the entire page */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 150vh;
+    }
+
+    /* Styles for header */
+    header {
+      background-color: #B46CA8;
+      padding: 15px;
+      color: white;
+      font-size: 24px;
+      position: absolute;
+      top: 0; /* Place at the top */
+      width: 100%; /* Full width */
+    }
+
+    /* Button styles */
+    .btn {
+      font-size: 30px; /* Increase font size */
+      border: 3px solid white; /* Increase border size */
+      outline: none;
+      color: white;
+      padding: 20px 30px; /* Adjust padding to make the buttons bigger */
+      background-color: #B46CA8; /* Adjust the background color if needed */
+      font-family: inherit;
+      cursor: pointer;
+      text-decoration: none; /* Retain the text-decoration for links */
+      margin: 100px; /* Add margin for spacing */
+      display: inline-block; /* Ensure buttons are displayed in a line */
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header Title -->
+  <header>
+    <h1>Music School Management System</h1>
+  </header>
+  
+<img src="MSDBApp/assets/admin.png" alt="Admin Icon">
+
+<img src="MSDBApp/assets/enrollee.png" alt="Enrollee Icon">
+
+  <!-- Button container -->
+  <div class="btn-container">
+    <!-- Admin and Enrollee Buttons -->
+    <a href="#admin.html" class="btn">Admin</a>
+    <a href="#enrollee.html" class="btn">Enrollee</a>
+  </div>
+
+</body>
+</html>
